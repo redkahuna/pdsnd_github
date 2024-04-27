@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 
+# This references the city CSV data used by the program
 CITY_DATA = {
     'chicago': 'chicago.csv',
     'new york city': 'new_york_city.csv',
@@ -143,4 +144,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # print(load_data('chicago', 'june', 'monday'))
+    
